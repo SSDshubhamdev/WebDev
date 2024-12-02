@@ -21,7 +21,3 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'  # Specify the version of Node.js you want
-
-      # Install dependencies (if any, e.g., for linting, testing)
-      - name: Install dependencies
-        run: npm install  # Assumes you have a package.json with dependencies listed
