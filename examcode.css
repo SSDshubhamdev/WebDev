@@ -1,0 +1,53 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+header {
+    background-image: url('farm.jpeg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.btn-primary {
+    background-color: #f39c12;
+    border: none;
+}
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card-title {
+    font-size: 18px;
+}
+section.about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+section.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color:white;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.navbar .logo-img {
+    max-height: 40px; /* Adjust based on your design */
+    width: auto;
+    display: inline-block;
+}
+

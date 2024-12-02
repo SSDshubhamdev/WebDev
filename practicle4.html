@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  
+<link href="CSS/admin.css" rel="stylesheet"/>
+<body >
+    <header class="header">
+        <a href="">Admin Dashboard</a>
+        <div class="logout">
+            <a href="login.jsp">Logout</a>
+         </div>
+    </header>
+  <div class="sidebar">
+    <h2>Menu</h2>
+    <ul>
+      
+      <li class="dropdown">
+        <a href="#">Registration <span class="arrow">&#9660;</span></a>
+        <ul class="dropdown-menu">
+          <li><a href="addnewcustomer.jsp">Add New Customer</a></li>
+          <li><a href="viewcustomer.jsp">View Customer</a></li>
+          
+        </ul>
+        <li>
+        <li class="dropdown">
+          <a href="#">Vehicle <span class="arrow">&#9660;</span></a>
+          <ul class="dropdown-menu">
+            <li><a href="vehicleinfo.jsp">Add Vehicle</a></li>
+            <li><a href="viewvehiclejsp.jsp">View Vehicle</a></li>
+            
+          </ul>
+        </li> <!-- Close the second dropdown li here -->
+      <li>
+        <li class="dropdown">
+          <a href="#">Services <span class="arrow">&#9660;</span></a>
+          <ul class="dropdown-menu">
+            <li><a href="serviceinfo.jsp">Add Service</a></li>
+           
+            
+          </ul>
+        </li> <!-- Close the third dropdown li here -->
+         <li>
+        <li class="dropdown">
+          <a href="bill.jsp"> Bill<span class="arrow">&#9660;</span></a>
+          
+        </li> <!-- Close the third dropdown li here -->
+      
+    </ul>
+  </div>
+   <div class="content" style="background-image:url('wel.jpg');"  >
+    <!-- <h2>Main Content</h2>
+    <p>This is the main content area.</p> -->
+  </div> 
+</body>
+</html>

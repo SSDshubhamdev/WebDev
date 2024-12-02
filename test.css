@@ -1,0 +1,11 @@
+body{
+     margin: 0;
+     padding: 0;
+}
+.head{
+    width:500px;
+    height:344px;
+    background-image: url('farm.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

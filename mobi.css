@@ -1,0 +1,60 @@
+/* Custom Styles */
+.hero-section {
+    position: relative;
+    background: rgba(185, 178, 178, 0.5); /* Dark overlay */
+}
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.hero-section .btn-primary,
+.hero-section .btn-secondary {
+    margin: 20px;
+}
+.services i {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+.application img {
+    margin-top: 20px;
+}
+.success-stories img {
+    margin: 15px;
+    max-width: 100%;
+}
+
+/* Styling for Service Boxes */
+.service-box {
+    background-color: #f9f9f9;  /* Light background */
+    border-radius: 8px;         /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    transition: transform 0.3s ease;  /* Animation for hover effect */
+}
+.service-box:hover {
+    transform: translateY(-10px);  /* Hover effect to lift the box */
+}
+.service-box i {
+    color: #007bff;  /* Icon color */
+    margin-bottom: 15px;
+}
+
+.success-box {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #e0e0e0; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Animation for hover effect */
+}
+
+.success-box:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.success-box h4 {
+    margin-bottom: 15px; /* Spacing below title */
+}
+
+.success-box p {
+    margin-bottom: 15px; /* Spacing below paragraph */
+}
